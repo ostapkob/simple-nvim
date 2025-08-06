@@ -6,15 +6,15 @@ else
 end
 
 local function load_plugins(path)
-	if vim.fn.isdirectory(path) ~= 1 then
-		return
-	end
-	for _, plugin in ipairs(vim.fn.readdir(path)) do
-		local p = path .. "/" .. plugin
-		if vim.fn.isdirectory(p) == 1 then
-			vim.opt.runtimepath:append(p)
-		end
-	end
+  if vim.fn.isdirectory(path) ~= 1 then
+    return
+  end
+  for _, plugin in ipairs(vim.fn.readdir(path)) do
+    local p = path .. "/" .. plugin
+    if vim.fn.isdirectory(p) == 1 then
+      vim.opt.runtimepath:append(p)
+    end
+  end
 end
 load_plugins(plugins_path)
 
@@ -27,8 +27,17 @@ require("lualine").setup()
 require("noice").setup()
 require("gitsigns").setup()
 
+
+
+
 --Здесь подключаем из папки plugins
 require("plugins.alpha").setup()
 require("plugins.neo-tree").setup()
+require("plugins.lsp").setup()
+require("plugins.blink-cmp").setup()
 
+-- test
 -- print(package.loaded["plugin_name"])
+-- :scriptnames
+
+

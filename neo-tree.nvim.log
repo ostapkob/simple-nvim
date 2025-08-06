@@ -1,0 +1,5 @@
+[INFO  Tue 05 Aug 2025 11:01:12 PM +05] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:267: Toggling hidden files: true
+[INFO  Tue 05 Aug 2025 11:01:18 PM +05] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:267: Toggling hidden files: false
+[INFO  Tue 05 Aug 2025 11:01:26 PM +05] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:267: Toggling hidden files: true
+[INFO  Tue 05 Aug 2025 11:01:27 PM +05] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:267: Toggling hidden files: false
+[INFO  Wed 06 Aug 2025 10:57:03 PM +05] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:120: No items, skipping git ignored/status lookups

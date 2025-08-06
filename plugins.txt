@@ -29,3 +29,7 @@ tpope/vim-surround
 christoomey/vim-tmux-navigator
 folke/which-key.nvim
 
+neovim/nvim-lspconfig
+hrsh7th/cmp-nvim-lsp
+hrsh7th/cmp-buffer
+Saghen/blink.cmp
